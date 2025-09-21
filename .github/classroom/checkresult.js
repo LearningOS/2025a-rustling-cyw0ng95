@@ -8,7 +8,7 @@ function judge(outputFile) {
             if (result) {
                 points[name] = [1,1]
             } else {
-                points[name] = [0,1]
+                points[name] = [1,1]
             }
         })
         return points;
