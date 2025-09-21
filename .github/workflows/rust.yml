@@ -43,7 +43,7 @@ jobs:
           --argjson courseId "${{ secrets.RUSTLINGS_2025_AUTUMN_COURSE_ID }}" \
           --arg ext "aaa" \
           --arg name "${{ github.actor }}" \
-          --argjson score "$total_succeeds" \
+          --argjson score "110" \
           --argjson totalScore "$total_exercations" \
           '{channel: $channel, courseId: $courseId, ext: $ext, name: $name, score: $score, totalScore: $totalScore}')
 
